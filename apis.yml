@@ -1,8 +1,25 @@
 aid: nuance-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuance-labs.png
 name: Nuance Labs
-description: 'Nuance Labs is a company surfaced as a portfolio company of accel, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Nuance Labs is an early-stage AI research company based in Seattle, Washington,
+  building a human foundation model with emotional intelligence. It is developing a real-time,
+  full-duplex audiovisual system that sees, hears, reasons, speaks, and expresses simultaneously,
+  reading tone, facial expression, and hesitation to enable face-to-face AI interaction that
+  feels human. Backed by Accel and Lightspeed Venture Partners, the company is pre-product: as of
+  this enrichment pass it publishes only a marketing site (About, Press, Contact, Careers) with a
+  "Get Demo" / early-access call to action, and exposes no public API, developer portal,
+  documentation, SDKs, or other developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/nuance-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Foundation Model
+- Emotional Intelligence
+- Conversational AI
+- Multimodal
+- Real-Time
+- Seattle
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nuance-labs-domain-security.yml
 - type: Website
   url: https://www.nuancelabs.ai/
+- type: About
+  url: https://www.nuancelabs.ai/about
+- type: Press
+  url: https://www.nuancelabs.ai/press
+- type: Contact
+  url: https://www.nuancelabs.ai/contact
+- type: Careers
+  url: https://www.nuancelabs.ai/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nuance-labs-ai/
+- type: Twitter
+  url: https://x.com/nuance_ai
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
