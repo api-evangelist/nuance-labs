@@ -23,6 +23,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuance-labs.png
 name: Nuance Labs
+x-parent: microsoft
 description: 'Nuance Labs is an early-stage AI research company based in Seattle, Washington,
   building a human foundation model with emotional intelligence. It is developing a real-time,
   full-duplex audiovisual system that sees, hears, reasons, speaks, and expresses simultaneously,
@@ -31,7 +32,7 @@ description: 'Nuance Labs is an early-stage AI research company based in Seattle
   this enrichment pass it publishes only a marketing site (About, Press, Contact, Careers) with a
   "Get Demo" / early-access call to action, and exposes no public API, developer portal,
   documentation, SDKs, or other developer surface.'
-url: https://raw.githubusercontent.com/api-evangelist/nuance-labs/refs/heads/main/apis.yml
+url: https://www.nuancelabs.ai/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
