@@ -1,0 +1,30 @@
+# Front Door AI Index — nuance-labs — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nuance-labs
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.nuancelabs.ai
+  final_host: www.nuancelabs.ai
+  ownership: own
+  owner: nuance-labs
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 14
+  host_score: 14
+  density: 17.95
+  words: 780
+  tiers:
+    agentic: 2
+    core: 9
+    model: 3
+  ambiguous: 3
+  top_terms:
+    AI: 5
+    foundation model: 3
+    intelligence: 3
+    transformer: 3
+    conversational AI: 2
+    machine learning: 1
